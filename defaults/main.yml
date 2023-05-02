@@ -1,0 +1,8 @@
+---
+# defaults file for restic
+restic_password: password
+
+restic_dir: /mnt/backup
+restic_repo_name: example
+
+restic_password_file: "/home/{{ ansible_user }}/.restic_{{ restic_repo_name }}"
